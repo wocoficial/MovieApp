@@ -12,8 +12,6 @@ data class MovieDetailResponse(
     val adult: Boolean,
     @SerializedName("backdrop_path")
     val backdropPath: String,
-    @SerializedName("belongs_to_collection")
-    val belongsToCollection: BelongsToCollection,
     @SerializedName("budget")
     val budget: Int,
     @SerializedName("genres")
