@@ -1,7 +1,7 @@
-package br.dev.woc.movieapp.core.data.remote
+package br.dev.woc.movieapp.framework.data.remote
 
 import br.dev.woc.movieapp.BuildConfig
-import br.dev.woc.movieapp.core.util.Constants
+import br.dev.woc.movieapp.framework.util.Constants
 import okhttp3.Interceptor
 import okhttp3.Response
 

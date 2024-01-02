@@ -1,4 +1,4 @@
-package br.dev.woc.movieapp.core.util
+package br.dev.woc.movieapp.framework.util
 
 object Constants {
     const val API_KEY_PARAM = "api_key"

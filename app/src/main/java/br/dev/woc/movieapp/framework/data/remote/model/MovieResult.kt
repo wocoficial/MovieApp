@@ -1,4 +1,4 @@
-package br.dev.woc.movieapp.core.data.remote.model
+package br.dev.woc.movieapp.framework.data.remote.model
 
 import com.google.gson.annotations.SerializedName
 

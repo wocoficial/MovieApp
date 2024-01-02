@@ -1,8 +1,8 @@
-package br.dev.woc.movieapp.core.data.remote
+package br.dev.woc.movieapp.framework.data.remote
 
-import br.dev.woc.movieapp.core.data.remote.response.MovieDetailResponse
-import br.dev.woc.movieapp.core.data.remote.response.MovieResponse
-import br.dev.woc.movieapp.core.data.remote.response.SearchResponse
+import br.dev.woc.movieapp.framework.data.remote.response.MovieDetailResponse
+import br.dev.woc.movieapp.framework.data.remote.response.MovieResponse
+import br.dev.woc.movieapp.framework.data.remote.response.SearchResponse
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query

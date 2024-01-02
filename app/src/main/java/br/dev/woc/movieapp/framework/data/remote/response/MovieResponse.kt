@@ -1,6 +1,6 @@
-package br.dev.woc.movieapp.core.data.remote.response
+package br.dev.woc.movieapp.framework.data.remote.response
 
-import br.dev.woc.movieapp.core.data.remote.model.MovieResult
+import br.dev.woc.movieapp.framework.data.remote.model.MovieResult
 import com.google.gson.annotations.SerializedName
 
 data class MovieResponse(
