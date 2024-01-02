@@ -1,7 +1,6 @@
 package br.dev.woc.movieapp.core.data.remote.response
 
 
-import br.dev.woc.movieapp.core.data.remote.model.BelongsToCollection
 import br.dev.woc.movieapp.core.data.remote.model.Genre
 import br.dev.woc.movieapp.core.data.remote.model.ProductionCompany
 import br.dev.woc.movieapp.core.data.remote.model.ProductionCountry
