@@ -1,10 +1,10 @@
-package br.dev.woc.movieapp.framework.data.remote.response
+package br.dev.woc.movieapp.core.data.remote.response
 
 
-import br.dev.woc.movieapp.framework.data.remote.model.Genre
-import br.dev.woc.movieapp.framework.data.remote.model.ProductionCompany
-import br.dev.woc.movieapp.framework.data.remote.model.ProductionCountry
-import br.dev.woc.movieapp.framework.data.remote.model.SpokenLanguage
+import br.dev.woc.movieapp.core.data.remote.model.Genre
+import br.dev.woc.movieapp.core.data.remote.model.ProductionCompany
+import br.dev.woc.movieapp.core.data.remote.model.ProductionCountry
+import br.dev.woc.movieapp.core.data.remote.model.SpokenLanguage
 import com.google.gson.annotations.SerializedName
 
 data class MovieDetailResponse(
