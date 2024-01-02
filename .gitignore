@@ -27,4 +27,8 @@ local.properties
 apiKey.properties
 
 .gradle
-.idea
+.DS_Store
+/.idea
+/.gradle
+/build
+/app/build
