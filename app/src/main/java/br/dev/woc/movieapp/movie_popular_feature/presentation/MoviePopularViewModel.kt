@@ -13,9 +13,9 @@ import javax.inject.Inject
 
 @HiltViewModel
 class MoviePopularViewModel @Inject constructor(
-    getPopularMovieUseCase: GetPopularMovieUseCase
+    private val getPopularMovieUseCase: GetPopularMovieUseCase
 ) : ViewModel() {
-    var uiState by mutableStateOf(MoviePopularState())
+    private var uiState by mutableStateOf(MoviePopularState())
         private set
 
     init {
