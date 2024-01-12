@@ -13,7 +13,7 @@ interface GetMovieSearchUseCase {
     data class Params(val query: String)
 }
 
-class GetSearchMovieUseCaseImpl @Inject constructor(
+class GetMovieSearchUseCaseImpl @Inject constructor(
     private val repository: MovieSearchRepository
 ) : GetMovieSearchUseCase {
     override fun invoke(params: GetMovieSearchUseCase.Params): Flow<PagingData<MovieSearch>> {
