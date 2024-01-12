@@ -8,7 +8,7 @@ import br.dev.woc.movieapp.movie_popular_feature.domain.source.MoviePopularRemot
 import okio.IOException
 import retrofit2.HttpException
 
-class MoviePaggingSource constructor(
+class MoviePagingSource constructor(
     private val remoteDataSource: MoviePopularRemoteDataSource
 ) :
     PagingSource<Int, Movie>() {

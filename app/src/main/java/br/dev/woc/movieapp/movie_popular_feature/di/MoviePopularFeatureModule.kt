@@ -5,6 +5,7 @@ import br.dev.woc.movieapp.movie_popular_feature.data.repository.MoviePopularRep
 import br.dev.woc.movieapp.movie_popular_feature.domain.repository.MoviePopularRepository
 import br.dev.woc.movieapp.movie_popular_feature.domain.source.MoviePopularRemoteDataSource
 import br.dev.woc.movieapp.movie_popular_feature.domain.source.MoviePopularRemoteDataSourceImpl
+
 import br.dev.woc.movieapp.movie_popular_feature.domain.usecase.GetPopularMovieUseCase
 import br.dev.woc.movieapp.movie_popular_feature.domain.usecase.GetPopularMovieUseCaseImpl
 import dagger.Module
