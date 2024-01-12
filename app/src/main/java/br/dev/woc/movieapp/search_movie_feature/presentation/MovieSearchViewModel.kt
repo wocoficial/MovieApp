@@ -15,7 +15,7 @@ import javax.inject.Inject
 class MovieSearchViewModel @Inject constructor(
     private val getMovieSearchUseCase: GetMovieSearchUseCase
 ) : ViewModel() {
-    private var uiState by mutableStateOf(MovieSearchState())
+    var uiState by mutableStateOf(MovieSearchState())
         private set
 
     fun fetch(query: String = "") {

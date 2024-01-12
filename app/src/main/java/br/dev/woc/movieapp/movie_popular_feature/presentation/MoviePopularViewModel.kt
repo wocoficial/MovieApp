@@ -15,7 +15,7 @@ import javax.inject.Inject
 class MoviePopularViewModel @Inject constructor(
     private val getPopularMovieUseCase: GetPopularMovieUseCase
 ) : ViewModel() {
-    private var uiState by mutableStateOf(MoviePopularState())
+    var uiState by mutableStateOf(MoviePopularState())
         private set
 
     init {
