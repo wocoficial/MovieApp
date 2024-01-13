@@ -5,7 +5,7 @@ import br.dev.woc.movieapp.core.domain.model.Movie
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.emptyFlow
 
-class MoviePopularState(
+data class MoviePopularState(
     var movies: Flow<PagingData<Movie>> = emptyFlow()
 ) {
 }

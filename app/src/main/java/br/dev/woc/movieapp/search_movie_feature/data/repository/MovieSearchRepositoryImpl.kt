@@ -6,7 +6,7 @@ import androidx.paging.PagingConfig
 import androidx.paging.PagingData
 import br.dev.woc.movieapp.core.domain.model.MovieSearch
 import br.dev.woc.movieapp.search_movie_feature.domain.repository.MovieSearchRepository
-import br.dev.woc.movieapp.search_movie_feature.domain.source.MovieSearchRemoteDataSource
+import br.dev.woc.movieapp.search_movie_feature.data.source.MovieSearchRemoteDataSource
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 

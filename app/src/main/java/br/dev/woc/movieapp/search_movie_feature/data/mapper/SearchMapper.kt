@@ -8,6 +8,6 @@ fun List<SearchResult>.toMovieSearch() = map { movieResult ->
     MovieSearch(
         id = movieResult.id,
         voteAverage = movieResult.voteAverage,
-        imageUrl = movieResult.posterPath.toPostUrl() ?: ""
+        imageUrl = movieResult.posterPath.toPostUrl()
     )
 }

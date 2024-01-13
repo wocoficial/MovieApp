@@ -4,7 +4,7 @@ import androidx.paging.PagingSource
 import androidx.paging.PagingState
 import br.dev.woc.movieapp.core.domain.model.MovieSearch
 import br.dev.woc.movieapp.search_movie_feature.data.mapper.toMovieSearch
-import br.dev.woc.movieapp.search_movie_feature.domain.source.MovieSearchRemoteDataSource
+import br.dev.woc.movieapp.search_movie_feature.data.source.MovieSearchRemoteDataSource
 import retrofit2.HttpException
 import java.io.IOException
 
